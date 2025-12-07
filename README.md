@@ -1,4 +1,4 @@
-# 📚 Ebook Downloader Pro
+# 📚 Ebook Downloader
 
 <div align="center">
 

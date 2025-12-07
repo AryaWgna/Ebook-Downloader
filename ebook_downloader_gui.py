@@ -246,7 +246,7 @@ class EbookDownloaderGUI:
     
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("📚 Ebook Downloader Pro - Search & Download")
+        self.root.title("📚 Ebook Downloader - Search & Download")
         self.root.geometry("1000x800")
         self.root.configure(bg=ModernStyle.BG_PRIMARY)
         self.root.resizable(True, True)
@@ -287,7 +287,7 @@ class EbookDownloaderGUI:
         
         title_label = tk.Label(
             header_frame,
-            text="📚 Ebook Downloader Pro",
+            text="📚 Ebook Downloader",
             font=ModernStyle.FONT_TITLE,
             fg=ModernStyle.TEXT_PRIMARY,
             bg=ModernStyle.BG_PRIMARY
@@ -742,7 +742,7 @@ class EbookDownloaderGUI:
         log_scroll.pack(side=tk.RIGHT, fill=tk.Y)
         self.log_text.config(yscrollcommand=log_scroll.set)
         
-        self._log("✨ Selamat datang di Ebook Downloader Pro!")
+        self._log("✨ Selamat datang di Ebook Downloader!")
         self._log("💡 Paste URL file PDF/ebook lalu klik Download")
         self._log("⚠️ Pastikan URL mengarah langsung ke file (.pdf, .epub, dll)")
         self._log("-" * 50)
